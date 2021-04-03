@@ -1,0 +1,32 @@
+html, body{
+    height:100%;
+    margin:0;
+}
+
+nav{
+    display:flex;
+}
+
+nav ul{
+    display:flex;
+    gap:5vmin;
+    list-style-type:none;
+}
+
+#left-nav{
+    justify-self:flex-start;
+    margin-right:auto;
+}
+
+#right-nav{
+    justify-self:flex-end;
+    margin-left:auto;
+}
+
+main{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    height:95%;
+}
