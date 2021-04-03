@@ -3,6 +3,8 @@
     <head>
         <title>Google</title>
         <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav>
@@ -13,19 +15,37 @@
             <ul id="right-nav">
                 <li><a href="#">Gmail</a></li>
                 <li><a href="#">Images</a></li>
-                <li></li>
-                <li></li>
+                <li><a href="#"><img src="https://cdn.discordapp.com/attachments/443046746566688769/828043062449930310/Google_Waffle_Icon.png"></a></li>
+                <li><a href="#"><img id="profile-pic" src="https://lh3.googleusercontent.com/ogw/ADGmqu8cv9vtlyvXcjg-oOOHsmT91GhDlaBg8Ma_YF1k3g=s32-c-mo"></a></li>
             </ul>
         </nav>
         <main>
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            <form>
+            <form id="search-bar">
+                <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png">
                 <input type="text" id="search" name="search">
+                <br>
             </form>
+            <form id="search-buttons">
+                <button type="submit">Google Search</button>
+                <button type="button">I'm Feeling Lucky</button>
+            </form>
+            <p>Google offered in: <a href="#">Français</a></p>
         </main>
         <footer>
-            <div id="footer-top"></div>
-            <div id="footer-bottom"></div>
+            <div id="footer-top">Canada</div>
+            <div id="footer-bottom">
+                <ul id="left-footer">
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search Works</a></li>
+                </ul>
+                <ul id="right-footer">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>

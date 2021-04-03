@@ -3,23 +3,38 @@ html, body{
     margin:0;
 }
 
+body{
+    display:flex;
+    flex-direction:column;
+    font-family:'Open Sans', sans-serif;
+}
+
+body a{
+    text-decoration:none;
+}
+
 nav{
     display:flex;
 }
 
 nav ul{
     display:flex;
-    gap:5vmin;
+    gap:3vmin;
     list-style-type:none;
+    align-items:center;
+    padding-right:1vmin;
+}
+
+#profile-pic{
+    width:100%;
+    border-radius:50%;
 }
 
 #left-nav{
-    justify-self:flex-start;
     margin-right:auto;
 }
 
 #right-nav{
-    justify-self:flex-end;
     margin-left:auto;
 }
 
@@ -28,5 +43,68 @@ main{
     align-items:center;
     justify-content:center;
     flex-direction:column;
-    height:95%;
+    height:100%;
+    gap:5vmin;
+}
+
+main input{
+    width:100%;
+    background-color:transparent;
+    border:none;
+}
+
+#search-bar{
+    border:1px solid gray;
+    width:35%;
+    border-radius:2em;
+    padding:0.8vmin 0.5vmin 0.8vmin 0.5vmin;
+    display:flex;
+}
+
+#search-bar img{
+    width:3%;
+    padding-left:0.5vmin;
+}
+
+#search-buttons{
+    display:flex;
+    gap:1vmin;
+}
+
+#search-buttons button{
+    width:60%;
+    background-color:#f8f9fa;
+    border:none;
+    padding:0.5vmin 1vmin 0.5vmin 1vmin;
+}
+
+footer{
+    background-color:#f2f2f2;
+    display:flex;
+    flex-flow:column;
+    position:sticky;
+}
+
+#footer-top{
+    border-bottom:0.1vmin solid black;
+    padding:1.3vmin;
+}
+
+#footer-bottom{
+    display:flex;
+    padding-right:3vmin;
+}
+
+#footer-bottom ul{
+    display:flex;
+    gap:1.5vmin;
+    list-style-type:none;
+}
+
+#left-footer{
+    margin-right:auto;
+}
+
+#right-footer{
+    margin-left:auto;
 }
