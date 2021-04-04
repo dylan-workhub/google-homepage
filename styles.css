@@ -11,10 +11,16 @@ body{
 
 body a{
     text-decoration:none;
+    color:black;
+}
+
+body a:hover{
+    text-decoration:underline;
 }
 
 nav{
     display:flex;
+    font-size:1.4vmin;
 }
 
 nav ul{
@@ -54,7 +60,7 @@ main input{
 }
 
 #search-bar{
-    border:1px solid gray;
+    border:1px solid #dadce0;
     width:35%;
     border-radius:2em;
     padding:0.8vmin 0.5vmin 0.8vmin 0.5vmin;
@@ -78,16 +84,29 @@ main input{
     padding:0.5vmin 1vmin 0.5vmin 1vmin;
 }
 
+#french{
+    color:blue;
+}
+
 footer{
     background-color:#f2f2f2;
     display:flex;
     flex-flow:column;
     position:sticky;
     font-weight:600;
+    color:#71767b;
+}
+
+footer, footer a{
+    font-size:1.4vmin;
+}
+
+footer a{
+    color:#71767b;
 }
 
 #footer-top{
-    border-bottom:0.1vmin solid black;
+    border-bottom:0.1vmin solid #dadce0;
     padding:1.3vmin;
 }
 
