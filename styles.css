@@ -146,6 +146,15 @@ nav ul{
     display:flex;
     flex-direction:column;
 }
+
+#results-body a{
+    color:blue;
+}
+
+#results-body p{
+    line-height:2.2vmin;
+}
+
 #results-body h3{
     font-size:1.5vmin;
     font-weight:400;
@@ -156,8 +165,23 @@ nav ul{
     font-weight:400;
 }
 
+.results-list h4, .results-list h2, .results-list p{
+    margin:0;
+    padding:0.3vmin;
+}
+
 .results-list{
-    margin-bottom:3vmin;
+    margin-bottom:2vmin;
+}
+
+.results-list p{
+    font-size:1.4vmin;
+    width:90%;
+}
+
+.results-list em{
+    font-style:normal;
+    color:#70757a;
 }
 
 #results-body h2{
@@ -171,6 +195,11 @@ nav ul{
     padding:5px;
     border:1px solid #dadce0;
     border-radius:1vmin;
+    margin-bottom:2vmin;
+}
+
+.also-search h4{
+    padding:1vmin 0 0 3vmin;
 }
 
 .also-search-links{
@@ -182,6 +211,55 @@ nav ul{
 .also-search-links li{
     list-style-type:none;
     padding:1vmin 0 1vmin 0;
+}
+
+.also-ask{
+    border-bottom:1px solid #dadce0;
+    margin-bottom:3vmin;
+}
+
+.also-ask-list{
+    display:flex;
+    align-items:center;
+    border-top:1px solid #dadce0;
+    padding:0.1vmin 0 0.1vmin 0;
+}
+
+.also-ask-list p{
+    width:95%;
+}
+
+.also-ask p img{
+    justify-self:flex-end;
+}
+
+.related-bubble-holder{
+    display:flex;
+}
+
+.bubble-left{
+    display:flex;
+    flex-direction:column;
+}
+
+.bubble-right{
+    display:flex;
+    flex-direction:column;
+}
+
+.bubbles{
+    display:flex;
+    align-items:center;
+    background-color:#f2f2f2;
+    border-radius:5vmin;
+    padding:0 4vmin 0 2vmin;
+    margin:0.5vmin;
+    width:80%;
+    height:18%;
+}
+
+.bubbles p{
+    margin-left:2vmin;
 }
 
 footer{
