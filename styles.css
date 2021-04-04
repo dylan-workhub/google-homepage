@@ -266,6 +266,12 @@ nav ul{
     margin-left:2vmin;
 }
 
+#google-page{
+    display:flex;
+    gap:0.5vmin;
+    margin:auto;
+}
+
 footer{
     background-color:#f2f2f2;
     display:flex;
