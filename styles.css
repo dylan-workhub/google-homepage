@@ -83,6 +83,7 @@ footer{
     display:flex;
     flex-flow:column;
     position:sticky;
+    font-weight:600;
 }
 
 #footer-top{
