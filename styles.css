@@ -18,6 +18,12 @@ body a:hover{
     text-decoration:underline;
 }
 
+#main-nav{
+    flex-direction:column;
+    border-bottom:1px solid #dadce0;
+    padding-top:0.8%;
+}
+
 nav{
     display:flex;
     font-size:1.4vmin;
@@ -36,15 +42,56 @@ nav ul{
     border-radius:50%;
 }
 
-#left-nav{
+.left-nav{
     margin-right:auto;
 }
 
-#right-nav{
+.right-nav{
     margin-left:auto;
 }
 
-main{
+#search-bar-li{
+    width:100%;
+}
+
+#nav-search{
+    width:85vmin;
+}
+
+#nav-search form{
+    width:98%;
+    display:flex;
+    height:3vmin;
+    margin-left:2%;
+}
+
+#nav-search input{
+    width:100%;
+    background-color:transparent;
+    border:none;
+    height:3vmin;
+}
+
+#nav-search form img{
+    width:3.5%;
+    padding:0.3vmin 0.5vmin 0.3vmin 0;
+}
+
+#bottom-nav{
+    padding-left:9%;
+    font-size:1.3vmin;
+}
+
+.results-left li a{
+    display:flex;
+    align-items:center;
+}
+
+#btm-nav-right{
+    padding-left:5%;
+}
+
+#index-main{
     display:flex;
     align-items:center;
     justify-content:center;
@@ -53,7 +100,7 @@ main{
     gap:5vmin;
 }
 
-main input{
+#index-main input{
     width:100%;
     background-color:transparent;
     border:none;
@@ -61,7 +108,7 @@ main input{
 
 #search-bar{
     border:1px solid #dadce0;
-    width:35%;
+    width:100%;
     border-radius:2em;
     padding:0.8vmin 0.5vmin 0.8vmin 0.5vmin;
     display:flex;
@@ -86,6 +133,55 @@ main input{
 
 #french{
     color:blue;
+}
+
+#results-main{
+    display:grid;
+    grid-template-columns: 13% auto 40%;
+}
+
+#results-body{
+    grid-column-start: 2;
+    grid-column-end:3;
+    display:flex;
+    flex-direction:column;
+}
+#results-body h3{
+    font-size:1.5vmin;
+    font-weight:400;
+}
+
+#results-body h4{
+    font-size:1.3vmin;
+    font-weight:400;
+}
+
+.results-list{
+    margin-bottom:3vmin;
+}
+
+#results-body h2{
+    font-size:2vmin;
+    font-weight:500;
+}
+
+.also-search{
+    display:flex;
+    flex-direction:column;
+    padding:5px;
+    border:1px solid #dadce0;
+    border-radius:1vmin;
+}
+
+.also-search-links{
+    display:flex;
+    flex-direction:row;
+    font-size:1.4vmin;
+}
+
+.also-search-links li{
+    list-style-type:none;
+    padding:1vmin 0 1vmin 0;
 }
 
 footer{
