@@ -106,15 +106,19 @@ nav ul{
     border:none;
 }
 
-#search-bar{
+.search-bar{
     border:1px solid #dadce0;
-    width:100%;
+    width:40%;
     border-radius:2em;
     padding:0.8vmin 0.5vmin 0.8vmin 0.5vmin;
     display:flex;
 }
 
-#search-bar img{
+#results-search-bar{
+  width:100%;
+}
+
+.search-bar img{
     width:3%;
     padding-left:0.5vmin;
 }
